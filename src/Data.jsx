@@ -79,22 +79,29 @@ export const data = [
       img1: img2,
       img2: img3,
       heading: "Integrity",
-      info: `Own Your Actions:
-      We hold ourselves accountable taking full responsibility for our actions and commitments, fostering a culture of trust and dependability.`,
+      subheading:"Own Your Actions:",
+      info: "We hold ourselves accountable taking full responsibility for our actions and commitments, fostering a culture of trust and dependability.",
     },
     {
       img1: img2,
       img2: img3,
-      heading: "Integrity",
-      info: `Own Your Actions:
-      We hold ourselves accountable taking full responsibility for our actions and commitments, fostering a culture of trust and dependability.`,
+      heading: "Innovation",
+      subheading:"Embrace Change:",
+      info: `We continuously seek creative solutions and embrace new ideas to drive progress, ensuring we stay ahead in a rapidly evolving world.`,
     },
     {
       img1: img2,
       img2: img3,
-      heading: "Integrity",
-      info:` Own Your Actions:
-      We hold ourselves accountable taking full responsibility for our actions and commitments, fostering a culture of trust and dependability.`,
+      heading: "Teamwork",
+      subheading:"Collaborate and Support:",
+      info:`We believe in the power of collaboration, working together towards common goals and supporting each other to achieve collective success.`,
+    },
+    {
+      img1: img2,
+      img2: img3,
+      heading: "Continuous Learning",
+      subheading:"Grow and Improve:",
+      info:`We are committed to continuous learning and development, encouraging personal and professional growth to keep improving and innovating.`,
     },
   ];
 
@@ -108,14 +115,14 @@ export const data = [
     {
       img1: people,
       img2: comma,
-      quote: "Stay hungry, stay foolish.",
-      author: "-Steve Jobs",
+      quote: "Fail fast, fail often.",
+      author: "-Eric Ries",
     },
     {
       img1: people,
       img2: comma,
-      quote: "Stay hungry, stay foolish.",
-      author: "-Steve Jobs",
+      quote: "Start small. Scale fast.",
+      author: "-John Doerr",
     },
   ];
 

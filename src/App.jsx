@@ -333,6 +333,7 @@ function App() {
                       img1={item.img1}
                       img2={item.img2}
                       heading={item.heading}
+                      subheading={item.subheading}
                       info={item.info}
                     />
                   </SwiperSlide>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Card2 = ({id,img1,img2,heading,info}) => {
+const Card2 = ({id,img1,img2,heading,subheading,info}) => {
   return (
     <div key={id} className="w-full flex flex-col lg:flex-row items-center justify-center ">
               <div className=" w-[248px] h-[248px] lg:w-[295px] lg:h-[295] flex justify-center ">
@@ -22,6 +22,7 @@ const Card2 = ({id,img1,img2,heading,info}) => {
                     </p>
                   </div>
                   <div className="  mt-4">
+                    <p>{subheading}</p>
                     <p className="font-normal text-base md:leading-5">
                       {info}
                     </p>
