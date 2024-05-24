@@ -99,9 +99,9 @@ export const data = [
     {
       img1: img2,
       img2: img3,
-      heading: "Continuous Learning",
-      subheading:"Grow and Improve:",
-      info:`We are committed to continuous learning and development, encouraging personal and professional growth to keep improving and innovating.`,
+      heading: "Adaptability",
+      subheading:"Be Flexible:",
+      info:`We embrace change and adapt quickly to new challenges and opportunities, remaining resilient and forward-thinking in a dynamic environment.`,
     },
   ];
 
