@@ -1,0 +1,38 @@
+.gradientDiv{
+  border-color: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)) !important;
+  ;
+}
+
+.gradient-border {
+  position: relative;
+}
+
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  top: -2px; 
+  bottom: -2px; 
+  left: -2px; 
+  right: -2px;
+  background: linear-gradient(90deg, #FF00FF, #00FFFF);
+  z-index: -1;
+  border-radius: inherit;
+}
+.Dropdown-control{
+  border: none !important;
+  color: blue !important;
+  font-weight: 700;
+  font-size: 18px !important;
+}
+
+.swiper-slide .swiper-slide-active, .swiper-slide .swiper-slide-next{
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width:786px) {
+  .swiper-horizontal{
+    width: 360px !important;
+ }
+ 
+}
